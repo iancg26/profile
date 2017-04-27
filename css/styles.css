@@ -6,3 +6,31 @@ body {
 
 }
 .container {background-color: rgba(0, 0, 0, 0.5);}
+p {
+  color: #red;
+
+}
+h3 {
+  color: red;
+}
+h2 {
+  color: red;
+}
+.bobcat{
+  float: left;
+}
+.adventure{
+  opacity: 0;
+  animation: blinking 1s linear infinite;
+}
+
+@keyframes blinking {
+  from,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }
+}
